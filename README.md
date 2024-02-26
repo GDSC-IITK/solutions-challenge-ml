@@ -11,4 +11,6 @@
 	 For Linux and Mac Users:
    Type the following commands inside your folder to start the local server:
 		  export FLASK_APP=model.py
-      flask run
+                  flask run
+
+3. To test the server's functionality, just add a query like the following example: http://localhost:8000/kiosks?lat=22.5080547&lon=88.3533289
