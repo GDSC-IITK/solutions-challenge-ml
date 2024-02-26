@@ -40,25 +40,6 @@ def find_same_kiosks(df, latitude, longitude, k):
         return lat_lon_strings[:5]
 
 
-
-# print(find_same_kiosks(combined,22.5080547, 88.3533289, 5))
-
-# app = Flask(__name__)
-# @app.route('/users/<string:username>')
-# def hello_world(username=None):
-#     s = ""
-#     try:
-#         l = find_same_kiosks(combined,  'Chinese Food Corner', 3)
-#         test = 0
-#         for i in l:
-#             test += 1
-#             s += str(i) + " |\n"
-#             if test == 5:
-#                 break
-#     except:
-#         s = "No nearby restaurant found"
-#     return(s)
-
 app = Flask(__name__)
 
 @app.route('/')
